@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="FlutterUnityIntegration.csproj" />
+  <Project Path="FlutterUnityIntegration.Editor.csproj" />
+  <Project Path="FlutterUnityIntegration.Demo.csproj" />
+</Solution>
