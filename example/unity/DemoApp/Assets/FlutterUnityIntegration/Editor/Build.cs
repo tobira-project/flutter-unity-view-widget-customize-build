@@ -413,6 +413,12 @@ body { padding: 0; margin: 0; overflow: hidden; }
             // disable the Unity ndk path as it will conflict with Flutter.
             buildText = buildText.Replace("ndkPath \"", "// ndkPath \"");
 
+            // tobira-project:
+            // Replace Unity NDK/SDK paths with Android Gradle plugin's built-in paths
+            // This allows building without Unity Editor installed
+            buildText = buildText.Replace("getProperty(\"unity.androidNdkPath\")", "android.ndkDirectory");
+            buildText = buildText.Replace("getProperty(\"unity.androidSdkPath\")", "android.sdkDirectory");
+
             // Untiy 6000, handle ../shared/
             buildText = Regex.Replace(buildText, @"\.\./shared/", "./shared/");
             
