@@ -1,4 +1,17 @@
+
+This is a forked repository to customize building UnityLibrary.
+
+We customize [experimental/unity_6000](https://github.com/tobira-project/flutter-unity-view-widget-customize-build/tree/experimental/unity_6000) branch on [experimental/unity_6000-customized](https://github.com/tobira-project/flutter-unity-view-widget-customize-build/tree/experimental/unity_6000-customized).
+
+
+
+
+---
+
 # flutter_unity_widget
+
+
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 
 [![version][version-badge]][package]
